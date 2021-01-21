@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>李小样儿</title>
+    <meta name="keywords" content="李小样儿,夜无眠" />
+    <link href="images/favicon.ico" rel="shortcut icon"/>
+	<link href="images/favicon.ico" rel="bookmark"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="all"/>
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="plugin/search/css/style.css"/>
+	
+</head>
+<body>
+<section class="front" >
+    <div class="container" style="background:transparent;width:100%">
+        <div class="row">
+            <div class="col-md-12 header header-top-hidden">
+                <a href="http://www.lixiaoyanger.com/" style="color:#EE8262;"><div class="siteName">夜无眠</div></a>
+                <div class="menu">
+                    <span class="menuactive">首页</span>
+                    <span>无眠</span>
+                    <span>旅行</span>
+                    <span>音乐</span>
+                    <span>不负青春</span>
+                </div>
+                <div class="menuSearcher">
+                    <form id="searchForm2" method="post"  target="_blank">
+                    <input type="text" name="keyword" id="keyword" placeholder="从心开始..." onkeydown="search(1)" value=""/>
+                    <button type="button" onclick="searchBaidu(1)"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-12 jarallax overlay-dark" style="background-image: url('images/banner.jpg');height:500px;">
+                <div class="col-md-12">
+                    <div class="front-content">
+                        <a href="http://www.lixiaoyanger.com/"><h1 style="color:white;font-size:3em;font-weight:bold;"><span style="color:white;display:inline-block;">夜无眠</span></h1></a>
+                        <div class="front-des">
+                            每当夜深人静时，你是否依然还是无心睡眠
+                        </div>
+                        <div class="search d5">
+                            <form id="searchForm" method="post"  target="_blank">
+                            <input type="text" name="keyword" id="keyword2" placeholder="从心开始..." onkeydown="search(2)" value=""/>
+                                <button type="button" onclick="searchBaidu(2)"></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="site_product" id="app">
+    <div class="container" style="width:100%">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0px;">
+                <div class="category">
+                    无眠<p>在这里你不再孤单. . .</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 item">
+                <div class="img_tag"><div>善自待己</div></div>
+                <div class="item_left">
+                    <img src="images/happiness.jpg"/>
+                </div>
+                <div class="item_right">
+                    <h2><blockquote>一定要幸福下去</blockquote></h2>
+                    <div class="content_bref">	有一种思念，是淡淡的幸福；有一种幸福，是常常的牵挂；有一种牵挂，是远远地欣赏。不是所有的梦都能实现；不是所有的话都来得及告诉；不是所有的爱都有结果。请为爱珍重，等到你的发丝有了白雪的痕迹，还能记起曾有这么一段美好，还有这么一个让自己怀念的人，何尝不是一种幸福。
+                    </div>
+                    <div class="extra_info">
+                        <img src="images/arcteryx.jpg" class="xwcms"
+                             onmouseover="this.src='images/arcteryx.jpg'" onmouseout="this.src='images/arcteryx.jpg'"/>
+                        <div>匿名 2018/08</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;padding:0px;">
+                <div class="category">
+                    旅行<p>是否有一次说走就走的旅行能让你无法忘却？</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/travel/t1.jpg"/>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/travel/t2.jpg"/>
+                </div>
+
+
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/travel/t3.jpg"/>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;padding:0px;">
+                <div class="category">
+                    音乐<p>是否一首歌能让你想起曾经的美好？</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/music/m1.jpg"/>
+                </div>
+                <div class="rightblock">
+                    <p>《百年身》 / 樱九</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/music/m2.jpg"/>
+                </div>
+                <div class="rightblock">
+                    <p>《没那么简单》/ 黄小琥</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl">
+                    <img src="images/music/m3.jpg"/>
+                </div>
+                <div class="rightblock">
+                    <p>《醉赤壁》/  林俊杰</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom:20px;padding:0px;">
+                <div class="category">
+                    不负青春<p>是否有一个地方天空能让你忘记所有的烦恼？</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl2">
+                    <img src="images/follow_your_heart/f1.jpg"/>
+                    <div class="item_zyl_cover3">
+                    </div>
+                    <div class="item_zyl_cover_content3">
+                        <p>天津之眼</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl2">
+                    <img src="images/follow_your_heart/f2.jpg"/>
+                    <div class="item_zyl_cover3">
+                    </div>
+                    <div class="item_zyl_cover_content3">
+                        <p>沙漠</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="item_zyl2">
+                    <img src="images/follow_your_heart/f3.jpg"/>
+                    <div class="item_zyl_cover3">
+                    </div>
+                    <div class="item_zyl_cover_content3">
+                        <p>草原</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container" style="width:100%">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom:10px;border-top:1px solid #E8E8E8;">
+                <div class="footer_content">
+                    <h3>夜无眠</h3>
+                    <p>世间安得双全法 不负如来不负卿</p>
+                    <p>© 2018－2019 lixiaoyanger.com, all rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#top" class="scroll-top scroll-top-hidden">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</section>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/libs.js"></script>
+<script src="js/script.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/main.js"></script>
+<audio id="bgmMusic" src="music/bns.mp3" autoplay="autoplay" loop="loop" preload="auto" type="audio/mp3"></audio>
+</body>
+</html>
